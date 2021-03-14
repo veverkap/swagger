@@ -1,0 +1,12 @@
+package structs
+
+type UserPermissions struct {
+CanDownload bool
+CanModifyTemplate bool
+CanPublicSharePresentation bool
+CanPublicShareReviewLink bool
+CanShareDownloadablePresentation bool
+CanShareDownloadableReviewLink bool
+CanShareUnwatermarkedPresentation bool
+CanShareUnwatermarkedReviewLink bool
+}
